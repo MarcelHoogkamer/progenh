@@ -4,8 +4,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: Georgia, serif;
+    font-family: "Open Sans", Georgia, serif;
     text-align: center;
+    text-shadow: 2px 2px 2px darkgrey;
+    border-radius: 2;
     letter-spacing: 1px;
     font-size: medium;
     color: darkolivegreen;
@@ -29,6 +31,21 @@ header > h6 {
 
 h1 {
     color: white;
+
+h2 {
+    color: white;
+}
+
+}
+
+p {
+    color: white;
+}
+
+img {
+    float: right;
+    margin: 10px;
+    border: 10px solid black;
 }
 
 table {
@@ -72,8 +89,8 @@ td, th {
 
 blockquote {
     width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 30%;
+    margin-right: 30%;
     background-color: #EEEEEE;
     border-left: 3px black;
     padding: 30px;
