@@ -1,5 +1,9 @@
 body {
     width: 90%;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: Georgia, serif;
     text-align: center;
     letter-spacing: 1px;
@@ -12,14 +16,19 @@ body {
     margin-right: 5%;
 }
 
-blockquote {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+header > h6 {
+    width: 20%;
     text-align: center;
     align-items: center;
     align-content: center;
     alignment: center;
+    background-color: yellow;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+h1 {
+    color: white;
 }
 
 table {
@@ -29,6 +38,9 @@ table {
     margin-left: 25%;
     margin-right: 25%;
     text-align: center;
+    align-items: center;
+    align-content: center;
+    alignment: center;
 }
 
 td, th {
@@ -37,44 +49,108 @@ td, th {
     padding: 8px;
 }
 
+#rowone {
+    background-color: salmon;
+    font-weight: bold;
+}
+
+#rowtwo {
+    background-color: white;
+}
+
+#rowthree {
+    background-color: lightgray;
+}
+
+#rowfour {
+    background-color: white;
+}
+
+#rowfive {
+    background-color: lightgray;
+}
+
+blockquote {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #EEEEEE;
+    border-left: 3px black;
+    padding: 30px;
+    border-left-style: dashed;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    alignment: center;
+}
+
+q {
+    font-size: 160%;
+    font-style: italic;
+}
+
+.farmer {
+    border-left: 2px solid black;
+    padding-left: 10px;
+}
+
+.village {
+    border-left: 2px solid yellow;
+    padding-left: 10px;
+}
+
+.good {
+    text-transform: uppercase;
+    color: darkgreen;
+}
+
+.bad {
+    text-transform: uppercase;
+    color: darkred;
+}
+
 figcaption {
     font-style: italic;
 }
 
 a:link {
-    background-color: salmon;
+    background-color: black;
     color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    border-radius: 10px;
 }
 
 a:visited {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+a:hover {
     background-color: salmon;
     color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-}
-
-a:hover {
-    background-color: black;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    border-radius: 10px;
 }
 
 a:active {
-    background-color: black;
+    background-color: salmon;
     color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    border-radius: 10px;
 }
 
 footer {
