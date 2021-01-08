@@ -89,7 +89,7 @@ td, th {
 
 blockquote {
     alignment: center;
-    width: 50%;
+    max-width: 50%;
     margin-left: 25%;
     margin-right: 25%;
     background-color: #EEEEEE;
