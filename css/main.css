@@ -1,6 +1,10 @@
 body {
     width: 90%;
+    font-family: Georgia, serif;
     text-align: center;
+    letter-spacing: 1px;
+    font-size: medium;
+    color: darkolivegreen;
     align-items: center;
     align-content: center;
     alignment: center;
@@ -16,7 +20,6 @@ blockquote {
     align-items: center;
     align-content: center;
     alignment: center;
-
 }
 
 table {
@@ -34,10 +37,49 @@ td, th {
     padding: 8px;
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
-
 figcaption {
     font-style: italic;
+}
+
+a:link {
+    background-color: salmon;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:visited {
+    background-color: salmon;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:active {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 0;
+    background-color: black;
+    color: white;
 }
